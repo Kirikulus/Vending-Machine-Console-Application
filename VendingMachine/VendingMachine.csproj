@@ -43,8 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\AddMoney.cs" />
+    <Compile Include="Commands\BuyGood.cs" />
+    <Compile Include="Utilities\ConsoleCommandInput.cs" />
+    <Compile Include="Utilities\ConsoleOutput.cs" />
+    <Compile Include="Models\FreeOrder.cs" />
+    <Compile Include="Commands\GetChange.cs" />
+    <Compile Include="Models\Good.cs" />
+    <Compile Include="Interfaces\ICommand.cs" />
+    <Compile Include="Interfaces\ICommandInput.cs" />
+    <Compile Include="Interfaces\IOrder.cs" />
+    <Compile Include="Interfaces\IOutput.cs" />
+    <Compile Include="Commands\Login.cs" />
+    <Compile Include="Models\Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request.cs" />
+    <Compile Include="Router\Router.cs" />
+    <Compile Include="Commands\ShowCommands.cs" />
+    <Compile Include="Commands\ShowGoods.cs" />
+    <Compile Include="Models\VendingMachine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
